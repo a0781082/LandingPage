@@ -1,0 +1,249 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+* {
+    margin: auto;
+    width: 90%; 
+    background-color: black;
+    color: white;
+    font-family: 'Hero New', sans-serif;
+}
+
+.headerLogo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    width: auto;
+    text-align: left;
+    margin: 0%;
+}
+
+.headerSection {
+    padding: 10%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    display: flex;
+    width: 100%;
+    background-color: #1f2937;
+    margin: auto;
+  }
+
+.nav {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+    width: auto;
+    justify-content: space-between;
+    color: #e5e7eb;
+    font-size: 18px;
+    background-color: #1f2937;
+}
+
+.section1 {
+    justify-content: center;
+    display: inline-flex;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    position: relative;
+    text-align: left;
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.section1Boxes {
+    display: block;
+    background-color: #1f2937;
+    margin: 0;
+    max-width: 50%;
+}
+
+.section1Boxes.firstBox1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    max-width: 100%;
+}
+
+.section1Boxes.firstBox2 {
+    font-size: small;
+    font-weight: lighter;
+    max-width: 100%;
+}
+
+.section1Boxes.buttondv {
+    background-color: #1f2937;
+}
+.button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+    width: 90px;
+}
+
+.button, button2 {
+    border: 1px solid white;
+}
+
+.section1Boxes.secondBox {
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.section2 {
+    width: 100%;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    color: black;
+    justify-content: center;  
+}
+
+.s2header {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 0%;
+    padding-bottom: 1em;
+}
+
+.s2item-container {
+    width: 100%;
+    display: inline-flex;
+    background-color: white;
+}
+
+.s2itemdv {
+    background-color: white;
+}
+
+.s2item {
+    height: 100%;
+    border: 2px solid blue;
+    border-radius: 7px;
+}
+
+.s2item-text {
+    font-size: 80%;
+    background-color: white;
+    color: black;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0%;
+}
+
+#section3 {
+    background-color: #e5e7eb;
+    width: 100%;
+    padding: 4%;
+}
+
+.quoteBox {
+    /*padding: 14%;*/
+    color: #1f2937;
+    background-color: #e5e7eb;
+}
+.quoteBox.quoteText {
+    padding-bottom: 0%;
+    height: 10%;
+    margin: auto;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quoteBox.quoteAttribution {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    padding-top: 0%;
+}
+
+.section4 {
+    display: inline-flex;
+    width: 100%;
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: white;
+    color: black;
+}
+
+.s4contentdv {
+    display: inline-flex;
+    width: 100%;
+    background-color: #3882f6;
+    padding: 5%;
+}
+
+.s4content {
+    background-color: #3882f6;
+}
+
+.s4textcontent {
+    padding: 0%;
+    margin: 0%;
+    width: 75%;
+    color: white;
+}
+
+.s4text1 {
+    padding: 0%;
+    margin: 0%;
+    font-weight: bold;
+}
+
+.s4text2 {
+    padding: 0%;
+    margin: 0%;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.s4buttondv {
+    padding: 0%;
+    margin: 0%;
+    width: 25%;
+    align-content: end;
+}
+
+footer {
+    width: 100%;
+    background-color: #1f2937;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:link
+{
+    color: white;
+    background-color: #1f2937;
+}
+
+a:visited
+{
+    color: goldenrod;
+    background-color: #1f2937;
+}
+
+a:hover 
+{
+    color: greenyellow;
+    background-color: #1f2937;
+}
